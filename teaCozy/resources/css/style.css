@@ -1,0 +1,144 @@
+* {
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 22px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  z-index: 100;
+}
+
+header img {
+  height: 50px;
+  width: 157px;
+  margin-left: 10px;
+}
+
+header nav span {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/missionBackground.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 69px;
+}
+
+.missionHeader {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contentSection {
+  margin-bottom: 69px;
+}
+
+#teas {
+  width: 1000px;
+  padding-top: 69px;
+}
+
+#teas h2 {
+  margin-bottom: 15px;
+}
+
+.teaDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.teaFlavour {
+  margin: 15px;
+}
+
+.teaFlavour img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  padding-top: 69px;
+  background-image: url("../images/locationsBackground.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#locations h2 {
+  margin-bottom: 15px;
+  background: none;
+}
+
+.locationInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  background: none;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  opacity: 1.0;
+  width: 300px;
+  height: 300px;
+}
+
+.teaCozyInfo {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.copyrightInfo {
+  margin-top: 25px;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 20px;
+}
